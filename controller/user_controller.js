@@ -14,7 +14,7 @@ export const getUser=async(request,response)=>{
             console.log("error while get request",error);
         }
 }
-
+//abc
 export const addUser= async(request,response)=>{
     const user=request.body;
      
